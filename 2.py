@@ -8,3 +8,13 @@ print('55555\t44444')
 print("hello\"")
 print("http:\\\\www.baidu.com")
 print(r"55555\n44444")
+print(chr(0b10000001100111111))
+print(ord('徐'))
+import keyword
+
+print(keyword.kwlist)
+name = "科国"
+print(name)
+print('标识', id(name))
+print('类型', type(name))
+print('值', name)
