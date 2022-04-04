@@ -24,8 +24,6 @@ print('值', name)
 print('值', name)
 n = 10
 print('类型', type(n))
-<<<<<<< Updated upstream
-
 print('八进制', 0o755)
 print('二进制', 0b10101111)
 print('十六进制', 0x789ad)
@@ -35,11 +33,7 @@ a3 = 2.2
 print(a + a2)
 print(a + a3)
 from decimal import Decimal
-
 print(Decimal('1.1') + Decimal('2.2'))
-=======
-
 print('八进制', 0o755)
 print('二进制', 0b10101111)
 print('十六进制', 0x789ad)
->>>>>>> Stashed changes
