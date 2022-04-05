@@ -50,7 +50,33 @@ print(random.randint(0, 10))
 print("d")
 import keyword
 print(keyword.kwlist)
-
+a=77
+b=77.77
+c=True
+d=False
+print(str(a),type(str(a)))
+print(int(b),type(str(b)))
+print(int(c),type(str(c)))
+#浮点数
+print(float(a),type(float(a)))
+#字符串
+print(str(a),type(str(a)))
+#整数
+print(int(b),type(int(b)))
+#布尔值
+print(int(c),type(int(c)))
+#布尔值
+print(int(d),type(int(d)))
+#字符串
+print(str(a),type(str(a)))
+#浮点数
+print(float(a),type(float(a)))
+#字符串
+print(str(a),type(str(a)))
+#整数
+print(int(b),type(int(b)))
+#布尔值
+print(int(c),type(int(c)))
 
 
 
