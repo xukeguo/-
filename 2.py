@@ -1,3 +1,5 @@
+from asyncio import PriorityQueue
+from cgi import print_arguments
 from unicodedata import decimal
 
 a = open("/Users/xkg/Documents/test.txt", "a+")
@@ -37,4 +39,18 @@ print(Decimal('1.1') + Decimal('2.2'))
 print('八进制', 0o755)
 print('二进制', 0b10101111)
 print('十六进制', 0x789ad)
-p
+print
+print_arguments
+print
+#求随机数
+import random
+print(0)
+print(random.randint(0, 10))
+#求随机数
+
+
+
+
+
+
+
