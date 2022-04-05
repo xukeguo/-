@@ -32,6 +32,9 @@ from  decimal import Decimal
 print(Decimal('1.3') + Decimal('2.3'))
 import keyword
 print(keyword.kwlist)
+print (0b1101010)
+print (0o11756)
+print (0x11756)
 
 
 
