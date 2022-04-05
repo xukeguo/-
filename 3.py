@@ -56,6 +56,7 @@ print(a-1)
 print(r"55555\n44444")
 print(chr(0b10000001100111111)) 
 print(ord('徐'))
+print(ord('徐'))
 
 
 
