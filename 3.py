@@ -26,3 +26,14 @@ print(keyword.kwlist)
 
 from decimal import Decimal
 print(Decimal('1.1') + Decimal('2.2'))
+from decimal import Decimal
+print(Decimal('1.3') + Decimal('2.3'))
+from  decimal import Decimal
+print(Decimal('1.3') + Decimal('2.3'))
+import keyword
+print(keyword.kwlist)
+
+
+
+
+
