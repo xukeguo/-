@@ -47,6 +47,10 @@ import random
 print(0)
 print(random.randint(0, 10))
 #求随机数
+print("d")
+import keyword
+print(keyword.kwlist)
+
 
 
 
