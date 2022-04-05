@@ -35,7 +35,12 @@ print(keyword.kwlist)
 print (0b1101010)
 print (0o11756)
 print (0x11756)
-
+a = open("/Users/xkg/Documents/test.txt", "a+")
+print("http:\\\\www.baidu.com", file=a)
+a.close()
+a=open("/Users/xkg/Documents/test.txt", "a+")
+print("http:\\\\www.baidu.com", file=a)
+a.close()
 
 
 
