@@ -1,10 +1,8 @@
-
-
 a = open("/Users/xuekguo/Documents/test.txt", "a+")
 print("http:\\\\www.baidu.com", file=a)
-a.close()
+a.close()   # 关闭文件
 # 转义字符
-print("55555\n44444")
+print("55555\n44444")   
 print("55555\b444")
 print("55555\r44444")
 print('55555\t44444')
@@ -14,8 +12,9 @@ print(r"55555\n44444")
 print(chr(0b10000001100111111))
 print(ord('徐'))
 # 导入
-import keyword
-print(keyword.kwlist)
+import keyword  # 导入模块
+
+print(keyword.kwlist)   # 打印模块中的关键字
 name = "科国"
 print(name)
 print('标识', id(name))
@@ -24,7 +23,7 @@ print('值', name)
 print('值', name)
 n = 10
 print('类型', type(n))
-print('八进制', 0o755)
+print('八进制', 0o755)       # 八进制
 print('二进制', 0b10101111)
 print('十六进制', 0x789ad)
 a = 1.1
@@ -32,23 +31,17 @@ a2 = 2.1
 a3 = 2.2
 print(a + a2)
 print(a + a3)
-from decimal import Decimal
+from decimal import Decimal   # 导入模块
 
-print(Decimal('1.1') + Decimal('2.2'))
-print('八进制', 0o755)
-print('二进制', 0b10101111)
-print('十六进制', 0x789ad)
+print(Decimal('1.1') + Decimal('2.2'))  # 对象操作
+print('八进制', 0o755)     # 八进制
+print('二进制', 0b10101111)            # 二进制
+print('十六进制', 0x789ad)    # 十六进制
 # 求随机数
 import random
 
 print(0)
 print(random.randint(0, 10))
-# 求随机数
-print("d")
-import keyword
-
-print(keyword.kwlist)
-a = 77
 b = 77.77
 c = True
 d = False
@@ -75,65 +68,65 @@ print(str(a), type(str(a)))
 print(int(b), type(int(b)))
 # 布尔值
 print(int(c), type(int(c)))
-#转义字符
-#换行
+# 转义字符
+# 换行
 print("55555\n44444")
-#删除
+# 删除
 print("55555\b444")
-#回车
+# 回车
 print("55555\r44444")
-#制表符
+# 制表符
 print('55555\t44444')
-#转义字符
+# 转义字符
 print("hello\"")
-#转义字符
+# 转义字符
 print("http:\\\\www.baidu.com")
-#转义字符
+# 转义字符
 print(r"55555\n44444")
-#转义字符
+# 转义字符
 print(chr(0b10000001100111111))
-#转义字符
+# 转义字符
 print(ord('徐'))
-#转义字符
+# 转义字符
 print(chr(0x789ad))
-#导入
-#import keyword
-#print(keyword.kwlist)
-#name = "科国"
-#print(name)
-#print('标识', id(name))
-#print('类型', type(name))
-#print('值', name)
-#print('值', name)
-#n = 10
-#print('类型', type(n))
-#print('八进制', 0o755)
-#print('二进制', 0b10101111)
-#print('十六进制', 0x789ad)
-#a = 1.1
-#a2 = 2.1
-#a3 = 2.2
-#open("/Users/xuekguo/Documents/test.txt", "a+")
-#只读打开文件
-#a = open("/Users/xuekguo/Documents/test.txt", "r")
-#读取文件
-#print(a.read())
-#关闭文件
-#a.close()
-#写入文件
-#a = open("/Users/xuekguo/Documents/test.txt", "a+")
-#打开百度网页
+# 导入
+# import keyword
+# print(keyword.kwlist)
+# name = "科国"
+# print(name)
+# print('标识', id(name))
+# print('类型', type(name))
+# print('值', name)
+# print('值', name)
+# n = 10
+# print('类型', type(n))
+# print('八进制', 0o755)
+# print('二进制', 0b10101111)
+# print('十六进制', 0x789ad)
+# a = 1.1
+# a2 = 2.1
+# a3 = 2.2
+# open("/Users/xuekguo/Documents/test.txt", "a+")
+# 只读打开文件
+# a = open("/Users/xuekguo/Documents/test.txt", "r")
+# 读取文件
+# print(a.read())
+# 关闭文件
+# a.close()
+# 写入文件
+# a = open("/Users/xuekguo/Documents/test.txt", "a+")
+# 打开百度网页
 
-d=open("http:\\\\www.baidu.com", "a+")
+d = open("http:\\\\www.baidu.com", "a+")
 print("http:\\\\www.baidu.com", file=d)
 d.close()
 
-#数据类型-字符串
-str1 = "hello world"#单个引号相当于单行文本
+# 数据类型-字符串
+str1 = "hello world"  # 单个引号相当于单行文本
 str2 = 'hello world'
-str3 = """hello world"""#多行文本
+str3 = """hello world"""  # 多行文本
 str3 = """hello,
-world"""#三个双引号相当于多行字符串
+world"""  # 三个双引号相当于多行字符串
 str4 = '''hello world'''
 str5 = '''hello,
 world'''
@@ -142,47 +135,156 @@ print(str2)
 print(str3)
 print(str4)
 print(str5)
-#数据类型-整数
+# 数据类型-整数
 a = 1
 b = 2
 c = 3
 print(a)
 print(b)
 print(c)
-#数据类型-浮点数
+# 数据类型-浮点数
 a = 1.1
 b = 2.2
 c = 3.3
 print(a)
 print(b)
 print(c)
-#数据类型-布尔值
+# 数据类型-布尔值
 a = True
 b = False
 print(a)
 print(b)
-#注释编码转换
-#coding:gbk
-#coding:utf-8
-#coding:utf-8
-#多行注释用三个单引号或者三个双引号，注意要用英文的引号
+# 注释编码转换
+# coding:gbk
+# coding:utf-8
+# coding:utf-8
+# 多行注释用三个单引号或者三个双引号，注意要用英文的引号
 """hello,
 world"""
 
 '''"""hello,
 world"""'''
-#多行注释用三个单引号或者三个双引号，注意要用英文的引号
-#布尔值
+# 多行注释用三个单引号或者三个双引号，注意要用英文的引号
+# 布尔值
 a = True
 b = False
+#input 函数
+a = input("请输入a的值：")
+b = input("请输入b的值：")
+print(int(a)+int(b))
+#input 函数
+a = int(input("请输入a的值："))
+b = int(input("请输入b的值："))
+print(a+b)
+#input 函数
+a =input("请输入a的值：")
+a=int(a)
+b =input("请输入b的值：")
+b=int(b)
+print(a**b)
+#算术运算符
+print(1+2)#加法
+print(1-2)#减法
+print(1*2)#乘法
+print(1/2)#除法， 
+print(1//2)#整除,公式被除数减去除数的商的整数部分
+print(1%2)#取余
+print(2**3)#乘方，2的3次方
+#比较运算符
+#等于
+print(1==1)
+#不等于
+print(1!=1)                    # 不等于
+#大于
+print(1>1)         #False
+print(2>1)         #True
+#小于  
+print(1<1)         #False
+print(1<2)         #True         
+#大于等于
+print(1>=1)        #True
+print(2>=1)        #True
+#小于等于
+print(1<=1)        #True
+print(1<=2)        #True
+#逻辑运算符
+#与       
+print(True and True)  #True
+print(True and False) #False
+#或
+print(True or True)   #True
+print(True or False)  #True
+#非    
+print(not True)       #False
+print(not False)      #True
+#成员运算符
+#in
+print(1 in [1,2,3])   #True
+print(6 in [1,2,3,4]) #False
+#not in
+print(1 not in [1,2,3])   #False 
+print (8 not in [1,2,3])  #True
+#身份运算符
+#is
+print(1 is 1)         #True
+print(1 is not 1)     #False
+#参数赋值运算符       #参数赋值运算符
+a=20
+a+=10# 相当于a=a+10
+print(a)#30
+a-=10# 相当于a=a-10
+print(a)#20
+a*=10# 相当于a=a*10
+print(a)#200
+a/=10# 相当于a=a/10
+print(a)#20
+a%=10# 相当于a=a%10
+print(a)#0
+a=111
+a//=10# 相当于a=a//10
+print(a)#11
+a**=10# 相当于a=a**10   
+print(a)#10000000000
+a&=10# 相当于a=a&10
+print(a)#0
+a|=10# 相当于a=a|10     
+print(a)#10
+a^=10# 相当于a=a^10
+print(a)#10
+a>>=10# 相当于a=a>>10
+print(a)#0
+a<<=10# 相当于a=a<<10
+print(a)#0
+
+#指向变量的指针
+a = 10
+b = a
+print(b)            # 10
+
+#**
+print(2**3)#8
+#指数运算符
+#a^10什么意思？  
+#a**10什么意思？  a的10次方
+a=3
+print(a^10)   
+a=6
+a=a|10  
+print(a) 
+#解包赋值
+a,b,c=1,2,3
+print(a,b,c,) #1 2 3   解包赋值         
+#解包赋值
+a,b,c=1,2,3
+c,b,a=a,b,c   #交换a,b,c的值    
+print(a,b,c,) #3 2 1   解包赋值
 
 
 
 
+                          
 
-
-
-
+                          
 
 
 

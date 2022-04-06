@@ -57,6 +57,21 @@ print(r"55555\n44444")
 print(chr(0b10000001100111111)) 
 print(ord('徐'))
 print(ord('徐'))
+#注释多行文本
+#注释多行文本
+'''dfdsfsdfsdfsdfsdf,
+dfdfsdfsdfsdfsdfsdfsdf'''
+#注释编码转
+#coding=utf-8
+#codings=gbk
+#input函数
+#input函数
+a=input("请输入：")
+b=input("请输入：")
+
+
+
+
 
 
 
