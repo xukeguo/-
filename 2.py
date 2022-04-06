@@ -128,6 +128,60 @@ d=open("http:\\\\www.baidu.com", "a+")
 print("http:\\\\www.baidu.com", file=d)
 d.close()
 
+#数据类型-字符串
+str1 = "hello world"#单个引号相当于单行文本
+str2 = 'hello world'
+str3 = """hello world"""#多行文本
+str3 = """hello,
+world"""#三个双引号相当于多行字符串
+str4 = '''hello world'''
+str5 = '''hello,
+world'''
+print(str1)
+print(str2)
+print(str3)
+print(str4)
+print(str5)
+#数据类型-整数
+a = 1
+b = 2
+c = 3
+print(a)
+print(b)
+print(c)
+#数据类型-浮点数
+a = 1.1
+b = 2.2
+c = 3.3
+print(a)
+print(b)
+print(c)
+#数据类型-布尔值
+a = True
+b = False
+print(a)
+print(b)
+#注释编码转换
+#coding:gbk
+#coding:utf-8
+#coding:utf-8
+#多行注释用三个单引号或者三个双引号，注意要用英文的引号
+"""hello,
+world"""
+
+'''"""hello,
+world"""'''
+#多行注释用三个单引号或者三个双引号，注意要用英文的引号
+#布尔值
+a = True
+b = False
+
+
+
+
+
+
+
 
 
 
