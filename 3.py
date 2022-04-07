@@ -127,6 +127,11 @@ a=bool(a)
 b=False
 print(a)     
 print(type(b))  
+#写一首歌  歌名：爱情转移
+# 浮点函数       float
+    
+   
+
 
 
 
