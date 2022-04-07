@@ -1,6 +1,6 @@
-a = open("/Users/xuekguo/Documents/test.txt", "a+")
-print("http:\\\\www.baidu.com", file=a)
-a.close()   # 关闭文件
+#a = open("/Users/xuekguo/Documents/test.txt", "a+")
+#print("http:\\\\www.baidu.com", file=a)
+#a.close()   # 关闭文件
 # 转义字符
 print("55555\n44444")   
 print("55555\b444")
