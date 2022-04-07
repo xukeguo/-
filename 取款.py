@@ -6,4 +6,5 @@ else:
     print("取款成功")
     money=money-s
     print("我的钱包里有：",money)
+              
 
