@@ -66,8 +66,69 @@ dfdfsdfsdfsdfsdfsdfsdf'''
 #codings=gbk
 #input函数
 #input函数
-a=input("请输入：")
-b=input("请输入：")
+a=int(input("请输入："))
+b=int(input("请输入："))        # 输入
+print(a)               # 输出
+print(b)           # 输出
+print(a+b)     # 输出
+print(a-b)     # 输出
+print(a*b)     # 输出
+print(a/b)     # 输出
+print(a//b)    # 输出
+print(a%b)     # 输出
+print(a**b)    # 输出
+a=1
+b=float(a)
+print(type(b))
+print(type(a))   
+#flag=True   # 定义标志位
+#while flag:   # 循环体
+#    print("循环体")
+#    flag=False # 改变标志位
+#    print("循环体")
+#   float什么类型 浮点数
+#   int 整数
+#   str 字符串
+#   bool 布尔值
+#   list 列表
+#   tuple 元组
+#   dict 字典
+#   set 集合
+#   frozenset 冻结集合
+#   complex 复数
+#   range 范围
+#   bytes 字节
+#   bytearray 字节数组
+#   memoryview 内存视图
+#   slice 切片
+#   range 切片
+#   reversed 反向迭代
+#   enumerate 列表枚举
+#   zip 压缩
+#   map 函数映射
+#   filter 函数过滤
+#   sorted 排序
+#   min 最小值
+#   max 最大值
+#   sum 和
+#   abs 绝对值
+#   round 四舍五入
+#   divmod 除以取余
+#   pow 求幂
+#   all 所有
+#   any 任意
+#   enumerate 列表枚举
+#   zip 压缩
+#   map 函数映射
+#   filter 函数过滤
+#   sorted 排序
+a=0
+a=bool(a)
+b=False
+print(a)     
+print(type(b))  
+
+
 
 
 
